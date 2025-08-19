@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+ 
+body {
+    background-color: #98E5FF;;
+}
+
+.caixa-dado {
+    background-color: #0e0e0fee; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+    border-radius: 0 4px;
+}
+
+
+
+.caixa-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ede7e7;
+    font-size: 45px;
+}
+
+.texto-subtitulo {
+    color: rgba(20, 20, 20, 0.804);
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+p {
+    color: #ede7e7;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.caixa-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background-color: #fffffff3;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    box-shadow: 2px 2px 2px rgba(25, 25, 25, 0.299);
+}
+
+.caixa-botao {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #0e0e0fee;
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 18px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(25, 25, 25, 0.299);
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color:#323737; ;
+}
