@@ -17,15 +17,15 @@
 }
  
 body {
-    background-color: #98E5FF;;
+    background-color: #8cdaf4;;
 }
 
 .caixa-dado {
-    background-color: #0e0e0fee; 
+    background-color: #0e0e0ff5; 
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 170px;
+    height: 160px;
     border-radius: 0 4px;
 }
 
@@ -44,7 +44,7 @@ h1 {
 }
 
 .texto-subtitulo {
-    color: rgba(20, 20, 20, 0.804);
+    color: rgba(20, 20, 20, 0.844);
     display: flex;
     justify-content: center;
 }
